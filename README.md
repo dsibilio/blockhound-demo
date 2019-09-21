@@ -4,7 +4,7 @@ This project serves as a demo for BlockHound, which detects execution of blockin
 
 It is particularly useful when enabled during tests execution to discover these issues before bringing them in production.
 
-The `CustomBlockHoundTestListener.java` shows a way to initialize BlockHound with custom settings during tests execution, without relying on the [blockhound-junit-platform library](https://mvnrepository.com/artifact/io.projectreactor.tools/blockhound-junit-platform).
+The `AllowLoggingIntegration.java` shows a way to change BlockHound settings during tests execution by using custom integrations.
 
 The `BlockHoundDemoApplicationTests.java` class shows a very straightforward example of wrongly/correctly invoking blocking operations relying on different Reactor schedulers _(parallel vs elastic)_.
 

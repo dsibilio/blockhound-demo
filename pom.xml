@@ -53,10 +53,16 @@
 
 		<dependency>
 			<groupId>io.projectreactor.tools</groupId>
-			<artifactId>blockhound</artifactId>
+			<artifactId>blockhound-junit-platform</artifactId>
 			<version>1.0.0.RC1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.google.auto.service</groupId>
+			<artifactId>auto-service</artifactId>
+			<version>1.0-rc1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-launcher</artifactId>
